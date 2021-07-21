@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: tolerated-pod-   # trailing hyphen is intentional
+spec:
+  tolerations:
+  - operator: "Exists"
+  containers:
+  - image: docker.io/redhat/ubi8:latest
+    name: demo
+    command: ["/bin/sh", "-c", "while :; do date; sleep 10; done"]

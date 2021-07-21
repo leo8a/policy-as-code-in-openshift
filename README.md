@@ -7,8 +7,8 @@ For Kubernetes, there are several PaC solutions available as of this writing. Be
 
 |        PaC         | **Website** |  **Repository** |  **Documentation** |  **CNCF status** |
 |--------------------|---------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------|-------------------------------|
-| **OPA/Gatekeeper** | [openpolicyagent.org](https://www.openpolicyagent.org/) | [GitHub](https://github.com/open-policy-agent/gatekeeper) | [Doc](https://open-policy-agent.github.io/gatekeeper/website/docs/) | [Graduated](https://www.cncf.io/projects/)       |
-| **Kyverno**        | [kyverno.io](https://kyverno.io/)                       | [GitHub](https://github.com/kyverno/kyverno/)             | [Doc](https://kyverno.io/docs/)                                     | [Sandbox](https://www.cncf.io/sandbox-projects/) |
+| **OPA/Gatekeeper** | [openpolicyagent.org](https://www.openpolicyagent.org/) | [GitHub](https://github.com/open-policy-agent/gatekeeper) | [Docs](https://open-policy-agent.github.io/gatekeeper/website/docs/) | [Graduated](https://www.cncf.io/projects/)       |
+| **Kyverno**        | [kyverno.io](https://kyverno.io/)                       | [GitHub](https://github.com/kyverno/kyverno/)             | [Docs](https://kyverno.io/docs/)                                     | [Sandbox](https://www.cncf.io/sandbox-projects/) |
 | **k-rail**         |                            -                            | [GitHub](https://github.com/cruise-automation/k-rail)     |                                  -                                  |               -               |
 | **MagTape**        |                            -                            | [GitHub](https://github.com/tmobile/magtape)              |                                  -                                  |               -               |
 
@@ -34,6 +34,7 @@ Nonetheless, mind that choosing the right policy engine is not a trivial task an
 - (2021-04-06) Kubernetes Blog: [PodSecurityPolicy Deprecation: Past, Present, and Future](https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/)
 - (2021-03-31) AWS Post: [Policy-based countermeasures for Kubernetes – Part 2](https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-2/)
 - (2021-02-11) NeonMirrors Post: [Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
+- (2020-05-20) Red Hat Blog: [Better Kubernetes Security with Open Policy Agent (OPA) - Part 2](https://www.openshift.com/blog/better-kubernetes-security-with-open-policy-agent-opa-part-2)
 - (2019-08-06) Kubernetes Blog: [OPA Gatekeeper: Policy and Governance for Kubernetes](https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/)
 - (2019-10-30) Medium Post: [Securing Kubernetes with K-rail](https://medium.com/cruise/securing-kubernetes-with-k-rail-5f77a1a11174)
 
